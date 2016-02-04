@@ -114,6 +114,14 @@ namespace WCCFNew
 
                 postSuccess = true;
             }
+            catch (FacebookOAuthException)
+            {
+                MessageBox.Show("An error occured, Please log back in");
+                var fbLoginDialog = new FacebookLoginDialog(AppId, ExtendedPermissions); // Creates the Facebook login dialog
+                fbLoginDialog.ShowDialog(); // Shows the login form
+
+                DisplayAppropriateMessage(fbLoginDialog.facebookOAuthResult);
+            }
             catch (Exception)
             {
                 postSuccess = false;
