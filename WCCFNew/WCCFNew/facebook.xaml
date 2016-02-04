@@ -35,7 +35,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions> 
-                <CheckBox x:Name="lblInstructionsFB" Grid.Column="0" Content="Foundation Group" FontSize="15" HorizontalAlignment="Center" Style="{StaticResource checkBoxNotInHeader}" />
+                <CheckBox x:Name="cbGroup" Grid.Column="0" Content="Foundation Group" FontSize="15" HorizontalAlignment="Center" Style="{StaticResource checkBoxNotInHeader}" />
                 <CheckBox x:Name="cbWall" Grid.Column="1" Content="Facebook Wall" HorizontalAlignment="Center" FontSize="15" Style="{StaticResource checkBoxNotInHeader}" />
                 <CheckBox x:Name="cbPage" Grid.Column="2" Content="Facebook Page" FontSize="15" HorizontalAlignment="Center" Style="{StaticResource checkBoxNotInHeader}" />
             </Grid>
