@@ -19,6 +19,7 @@ namespace WCCFNew
     /// </summary>
     public partial class login : Window
     {
+
         public login()
         {
             InitializeComponent();
@@ -28,6 +29,12 @@ namespace WCCFNew
         {
             mainMenu mm = new mainMenu();
             mm.Show();
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            facebook fb = new facebook();
+            fb.Show();
         }
     }
 }

@@ -16,7 +16,8 @@
         <Grid.ColumnDefinitions>
         </Grid.ColumnDefinitions>
         <Border Grid.Row="0" Style="{StaticResource headerBoarderStyle}"/>
-        <Border Grid.Row="3" Style="{StaticResource footerBoarderStyle}"/>
+        <Border Grid.Row="3" Style="{StaticResource footerBoarderStyle}">
+        </Border>
         <Label Grid.Row="0" Content="Facebook Message Manager" Foreground="#c1c1c1" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="28"/>
         <Image Grid.Row="0" HorizontalAlignment="Right" Source="Media\facebookLogo.png"/>
         <Image Grid.Row="0" HorizontalAlignment="Left" Source="Media\facebookLogo.png"/>
@@ -51,8 +52,8 @@
             </Grid.ColumnDefinitions>
             <Label x:Name="FBEnterMSGLBL" Grid.Column="1" Content="Enter Message Here: " VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" FontSize="13.333"/>
             <TextBox x:Name="txtMessageFB" Grid.Column="1" Grid.RowSpan="2" Style="{StaticResource textBox}" Margin="10,28,10,10"/>
-            <Button x:Name="btnLoginFB" Grid.Row="0" Content="Login To Facebook" Style="{StaticResource buttonStyle}" Margin="10,10,10,10" FontSize="14"/>
-            <Button x:Name="btnLogoutFB" Grid.Row="1" Content="Logout of Facebook" Style="{StaticResource buttonStyle}" Margin="10,10,10,10" FontSize="14"/>
+            <Button x:Name="btnLoginFB" Grid.Row="0" Content="Login to Facebook" Style="{StaticResource buttonStyle}" Margin="10,10,10,10" FontSize="14" Click="btnFBLogin_Click"/>
+            <Button x:Name="btnLogoutFB" Grid.Row="1" Content="Logout of Facebook" Style="{StaticResource buttonStyle}" Margin="10,10,10,10" FontSize="14" Click="btnLogout_Click"/>
         </Grid>
 
         <Grid Grid.Row="3">
@@ -67,7 +68,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>            
                 <Button x:Name="btnClearFB" Grid.Column="0" Content="Clear" Style="{StaticResource buttonStyle}" FontSize="16" Click="btnClearFB_Click"/>
-                <Button x:Name="btnSubmitFB" Grid.Column="1" Content="Submit" Style="{StaticResource buttonStyle}" FontSize="16"/>
+                <Button x:Name="btnSubmitFB" Grid.Column="1" Content="Submit" Style="{StaticResource buttonStyle}" FontSize="16" Click="btnSubmit_Click"/>
             </Grid>
      
 

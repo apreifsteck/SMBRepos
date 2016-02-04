@@ -27,6 +27,7 @@ namespace WCCFNew
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
+        AccessTokenCheck atCheck;
 
         public facebook()
         {
@@ -64,6 +65,11 @@ namespace WCCFNew
                     cbGroup.IsEnabled = true;
                     cbWall.IsEnabled = true;
                     cbPage.IsEnabled = true;
+                    btnLoginFB.Content = "Logged In";
+                    btnLogoutFB.Content = "Logout of Facebook";
+                    atCheck = new AccessTokenCheck(_accessToken);
+                    _accessToken = atCheck.getExtendedToken;
+                    File.WriteAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
                 }
                 else
                 {
@@ -78,23 +84,6 @@ namespace WCCFNew
         {
             try
             {
-                //if (cbGroup.IsChecked == true)
-                //{
-                //    postDirection = "1514789935483590/feed";
-                //}
-                //else if (cbWall.IsChecked == true)
-                //{
-                //    postDirection = "me/feed";
-                //}
-                //else if (cbPage.IsChecked == true)
-                //{
-                //    postDirection = "1724637344489496/feed";
-                //}
-                //else
-                //{
-                //    postDirection = null;
-                //}
-
                 var fb = new FacebookClient(_accessToken);
                 dynamic result;
 
@@ -129,21 +118,6 @@ namespace WCCFNew
             {
                 postSuccess = false;
             }
-
-            //try
-            //{
-            //    var fb = new FacebookClient(_accessToken);
-            //    dynamic result = fb.Post(postDirection, new // Change the group id here!!!
-            //    {
-            //        message = txtMessageFB.Text
-            //    });
-
-            //    postSuccess = true;
-            //}
-            //catch (Exception)
-            //{
-            //    postSuccess = false;
-            //}
         }
 
         // Submits the status post
@@ -195,6 +169,8 @@ namespace WCCFNew
             cbGroup.IsEnabled = false;
             cbWall.IsEnabled = false;
             cbPage.IsEnabled = false;
+            btnLogoutFB.Content = "Logged Out";
+            btnLoginFB.Content = "Login to Facebook";
         }
     }
 }
