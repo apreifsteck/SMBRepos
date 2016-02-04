@@ -38,3 +38,6 @@ Q:\WCCFNew\WCCFNew\obj\Debug\mainMenu.g.cs
 Q:\WCCFNew\WCCFNew\obj\Debug\quickPost.g.cs
 Q:\WCCFNew\WCCFNew\obj\Debug\mainMenu.baml
 Q:\WCCFNew\WCCFNew\obj\Debug\quickPost.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb

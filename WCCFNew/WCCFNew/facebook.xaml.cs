@@ -26,7 +26,7 @@ namespace WCCFNew
 
         private void btnClearFB_Click(object sender, RoutedEventArgs e)
         {
-            txtMessageFB.Clear();
+            txtMessageFB.Clear(); //  hello world
         }
     }
 }
