@@ -12,17 +12,33 @@ namespace WCCFNew
     class AccessTokenCheck
     {
         private string accessToken;
+        private string extendedAccessToken;
 
         public AccessTokenCheck(string token)
         {
             accessToken = token;
         }
 
+        /// <summary>
+        /// Returns the new access token
+        /// </summary>
         public string getExtendedToken
         {
             get
             {
                 return GetExtendedAccessToken(accessToken);
+            }
+        }
+
+        /// <summary>
+        /// Returns the amount of time the access token has until expiration
+        /// </summary>
+        public string getTokenTime
+        {
+            get
+            {
+                getAppToken();
+                return getTime();
             }
         }
 
@@ -50,7 +66,40 @@ namespace WCCFNew
             {
                 extendedToken = ShortLivedToken;
             }
+            extendedAccessToken = extendedToken;
             return extendedToken;
+        }
+
+        /// <summary>
+        /// Gets the App Access Token needed for expiration time
+        /// </summary>
+        /// <returns></returns>
+        private string getAppToken()
+        {
+            var fb = new FacebookClient();
+            dynamic result = fb.Get("oauth/access_token", new
+            {
+                client_id = "145634995501895",
+                client_secret = "c52bbc56700c90faba4f953075d49889",
+                grant_type = "client_credentials"
+            });
+
+            return result.access_token;
+        }
+
+        /// <summary>
+        /// Gets the amount of time left on the access token until its expiration
+        /// </summary>
+        /// <returns></returns>
+        private string getTime()
+        {
+            var fb = new FacebookClient();
+            dynamic result = fb.Get("debug_token", new
+            {
+                access_token = getAppToken(),
+                input_token = extendedAccessToken
+            });
+            return result;
         }
     }
 }
