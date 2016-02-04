@@ -12,7 +12,6 @@
 
         <Border Grid.Row="0" Style="{StaticResource headerBoarderStyle}"/>
         <Border Grid.Row="3" Style="{StaticResource footerBoarderStyle}">
-            <Button x:Name="button" Content="Button" Margin="198,0,201,0" Click="button_Click_1"/>
         </Border>
         <Label Content="Social Media Login Manager" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#c1c1c1" FontWeight="Bold" FontSize="28"/>
         <Image Grid.Row="1" Source="Media\logo.png"/>

@@ -30,11 +30,5 @@ namespace WCCFNew
             mainMenu mm = new mainMenu();
             mm.Show();
         }
-
-        private void button_Click_1(object sender, RoutedEventArgs e)
-        {
-            facebook fb = new facebook();
-            fb.Show();
-        }
     }
 }
