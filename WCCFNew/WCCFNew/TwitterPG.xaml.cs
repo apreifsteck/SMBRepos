@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for mainMenu.xaml
+    /// Interaction logic for TwitterPG.xaml
     /// </summary>
-    public partial class mainMenu : Window
+    public partial class TwitterPG : Page
     {
-        public mainMenu()
+        public TwitterPG()
         {
             InitializeComponent();
         }

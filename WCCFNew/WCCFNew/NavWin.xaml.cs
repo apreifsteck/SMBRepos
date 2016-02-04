@@ -11,23 +11,18 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Navigation;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for login.xaml
+    /// Interaction logic for NavWin.xaml
     /// </summary>
-    public partial class login : Window
+    public partial class NavWin : NavigationWindow
     {
-        public login()
+        public NavWin()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            mainMenu mm = new mainMenu();
-            mm.Show();
         }
     }
 }

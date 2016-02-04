@@ -55,46 +55,59 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="facebook.xaml">
+    <Compile Include="GMailPG.xaml.cs">
+      <DependentUpon>GMailPG.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuickPost.xaml.cs">
+      <DependentUpon>QuickPost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TwitterPG.xaml.cs">
+      <DependentUpon>TwitterPG.xaml</DependentUpon>
+    </Compile>
+    <Page Include="FacebookPG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GMail.xaml">
+    <Page Include="GMailPG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="login.xaml">
+    <Page Include="LoginPG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="mainMenu.xaml">
+    <Page Include="MainMenuPG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="quickPost.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="NavWin.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="facebook.xaml.cs">
-      <DependentUpon>facebook.xaml</DependentUpon>
+    <Compile Include="FacebookPG.xaml.cs">
+      <DependentUpon>FacebookPG.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GMail.xaml.cs">
-      <DependentUpon>GMail.xaml</DependentUpon>
+    <Compile Include="LoginPG.xaml.cs">
+      <DependentUpon>LoginPG.xaml</DependentUpon>
     </Compile>
-    <Compile Include="login.xaml.cs">
-      <DependentUpon>login.xaml</DependentUpon>
+    <Compile Include="MainMenuPG.xaml.cs">
+      <DependentUpon>MainMenuPG.xaml</DependentUpon>
     </Compile>
-    <Compile Include="mainMenu.xaml.cs">
-      <DependentUpon>mainMenu.xaml</DependentUpon>
+    <Compile Include="NavWin.xaml.cs">
+      <DependentUpon>NavWin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="quickPost.xaml.cs">
-      <DependentUpon>quickPost.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+    <Page Include="QuickPost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TwitterPG.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
