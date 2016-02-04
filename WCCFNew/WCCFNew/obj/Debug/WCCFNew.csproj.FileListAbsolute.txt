@@ -65,3 +65,6 @@ C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\GMailPG.g.cs
 C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\GMailPG.baml
 C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\TwitterPG.g.cs
 C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\TwitterPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
