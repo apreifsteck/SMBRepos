@@ -68,3 +68,6 @@ C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\
 C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
 C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
 C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
+C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
