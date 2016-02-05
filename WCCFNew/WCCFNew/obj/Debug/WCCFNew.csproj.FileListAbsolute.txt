@@ -71,3 +71,4 @@ C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\
 C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
 C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
 C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
