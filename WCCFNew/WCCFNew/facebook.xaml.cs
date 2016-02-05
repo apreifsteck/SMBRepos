@@ -21,8 +21,8 @@ namespace WCCFNew
     /// </summary>
     public partial class facebook : Window
     {
-        private const string AppId = "145634995501895"; // FB given app id - Found on Dev Site.
-        private const string ExtendedPermissions = "publish_actions"; // Permissions granted to the user
+        private const string AppId = "1714601905437313"; // FB given app id - Found on Dev Site.
+        private const string ExtendedPermissions = "publish_actions, offline_access"; // Permissions granted to the user
         private string _accessToken; // needed to carry out any tasks
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
@@ -89,7 +89,7 @@ namespace WCCFNew
 
                 if (cbGroup.IsChecked == true)
                 {
-                    postDirectionList.Add("1514789935483590/feed");
+                    postDirectionList.Add("1142153865797871/feed");
                 }
                 if (cbWall.IsChecked == true)
                 {
@@ -97,7 +97,7 @@ namespace WCCFNew
                 }
                 if (cbPage.IsChecked == true)
                 {
-                    postDirectionList.Add("1724637344489496/feed");
+                    postDirectionList.Add("1104900869531916/feed");
                 }
                 if (cbGroup.IsChecked == false && cbPage.IsChecked == false && cbWall.IsChecked == false)
                 {

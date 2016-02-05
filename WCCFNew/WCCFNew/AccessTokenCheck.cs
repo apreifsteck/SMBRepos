@@ -56,8 +56,8 @@ namespace WCCFNew
                 dynamic result = client.Get("/oauth/access_token", new
                 {
                     grant_type = "fb_exchange_token",
-                    client_id = "145634995501895",
-                    client_secret = "c52bbc56700c90faba4f953075d49889",
+                    client_id = "1714601905437313",
+                    client_secret = "95d7ce3a711166b88bfaaa6c7ebe378e",
                     fb_exchange_token = ShortLivedToken
                 });
                 extendedToken = result.access_token;
@@ -79,8 +79,8 @@ namespace WCCFNew
             var fb = new FacebookClient();
             dynamic result = fb.Get("oauth/access_token", new
             {
-                client_id = "145634995501895",
-                client_secret = "c52bbc56700c90faba4f953075d49889",
+                client_id = "1714601905437313",
+                client_secret = "95d7ce3a711166b88bfaaa6c7ebe378e",
                 grant_type = "client_credentials"
             });
 
