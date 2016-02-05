@@ -28,6 +28,7 @@ namespace WCCFNew
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
         AccessTokenCheck atCheck;
+        login loginScreen;
 
         public facebook()
         {
@@ -145,6 +146,8 @@ namespace WCCFNew
         // Submits the status post
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+            loginScreen = new login();
+            _accessToken = loginScreen.getStoredToken;
             StatusPost();
             if (postSuccess == true)
             {
