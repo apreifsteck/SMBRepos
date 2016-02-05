@@ -23,5 +23,11 @@ namespace WCCFNew
         {
             InitializeComponent();
         }
+
+        private void btnFacebook_Click(object sender, RoutedEventArgs e)
+        {
+            facebook fb = new facebook();
+            fb.Show();
+        }
     }
 }

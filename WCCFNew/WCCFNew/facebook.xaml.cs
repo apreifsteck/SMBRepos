@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 using Facebook;
 
 namespace WCCFNew
@@ -20,16 +21,26 @@ namespace WCCFNew
     /// </summary>
     public partial class facebook : Window
     {
-        private const string AppId = "145634995501895"; // FB given app id - Found on Dev Site.
+        private const string AppId = "1714601905437313"; // FB given app id - Found on Dev Site.
         private const string ExtendedPermissions = "publish_actions"; // Permissions granted to the user
         private string _accessToken; // needed to carry out any tasks
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
+        AccessTokenCheck atCheck;
+        login loginScreen;
 
         public facebook()
         {
             InitializeComponent();
+        }
+
+        public string accessTokenProp
+        {
+            set
+            {
+                _accessToken = value;
+            }
         }
 
         private void btnClearFB_Click(object sender, RoutedEventArgs e)
@@ -63,6 +74,11 @@ namespace WCCFNew
                     cbGroup.IsEnabled = true;
                     cbWall.IsEnabled = true;
                     cbPage.IsEnabled = true;
+                    btnLoginFB.Content = "Logged In";
+                    btnLogoutFB.Content = "Logout of Facebook";
+                    atCheck = new AccessTokenCheck(_accessToken);
+                    _accessToken = atCheck.getExtendedToken;
+                    File.WriteAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
                 }
                 else
                 {
@@ -82,7 +98,7 @@ namespace WCCFNew
 
                 if (cbGroup.IsChecked == true)
                 {
-                    postDirectionList.Add("1514789935483590/feed");
+                    postDirectionList.Add("1142153865797871/feed");
                 }
                 if (cbWall.IsChecked == true)
                 {
@@ -90,7 +106,7 @@ namespace WCCFNew
                 }
                 if (cbPage.IsChecked == true)
                 {
-                    postDirectionList.Add("1724637344489496/feed");
+                    postDirectionList.Add("1104900869531916/feed");
                 }
                 if (cbGroup.IsChecked == false && cbPage.IsChecked == false && cbWall.IsChecked == false)
                 {
@@ -107,15 +123,31 @@ namespace WCCFNew
 
                 postSuccess = true;
             }
-            catch (Exception)
+            catch (FacebookOAuthException)
             {
+                MessageBox.Show("An error occured, Please log back in");
+                Login();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
                 postSuccess = false;
             }
+        }
+
+        public void Login()
+        {
+            var fbLoginDialog = new FacebookLoginDialog(AppId, ExtendedPermissions); // Creates the Facebook login dialog
+            fbLoginDialog.ShowDialog(); // Shows the login form
+
+            DisplayAppropriateMessage(fbLoginDialog.facebookOAuthResult); // DisplaysAppropriateMessage for the OAuth Result
         }
 
         // Submits the status post
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+            loginScreen = new login();
+            _accessToken = loginScreen.getStoredToken;
             StatusPost();
             if (postSuccess == true)
             {
@@ -162,6 +194,8 @@ namespace WCCFNew
             cbGroup.IsEnabled = false;
             cbWall.IsEnabled = false;
             cbPage.IsEnabled = false;
+            btnLogoutFB.Content = "Logged Out";
+            btnLoginFB.Content = "Login to Facebook";
         }
     }
 }

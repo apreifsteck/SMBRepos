@@ -15,6 +15,7 @@
         
         <Border Grid.Row="0" Style="{StaticResource headerBoarderStyle}"/>
         <Border Grid.Row="2" Style="{StaticResource footerBoarderStyle}"/>
-        
+        <Button x:Name="btnFacebook" Content="Facebook" HorizontalAlignment="Left" Margin="26,38,0,0" Grid.Row="1" VerticalAlignment="Top" Width="105" Height="47" Click="btnFacebook_Click"/>
+
     </Grid>
 </Window>

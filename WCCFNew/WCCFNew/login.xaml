@@ -11,7 +11,8 @@
         </Grid.RowDefinitions>
 
         <Border Grid.Row="0" Style="{StaticResource headerBoarderStyle}"/>
-        <Border Grid.Row="3" Style="{StaticResource footerBoarderStyle}"/>
+        <Border Grid.Row="3" Style="{StaticResource footerBoarderStyle}">
+        </Border>
         <Label Content="Social Media Login Manager" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#c1c1c1" FontWeight="Bold" FontSize="28"/>
         <Image Grid.Row="1" Source="Media\logo.png"/>
 
