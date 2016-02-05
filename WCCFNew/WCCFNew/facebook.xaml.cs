@@ -27,7 +27,7 @@ namespace WCCFNew
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
-        AccessTokenCheck atCheck;
+        //AccessTokenCheck atCheck;
         login loginScreen;
 
         public facebook()
