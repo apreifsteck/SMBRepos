@@ -25,10 +25,28 @@ namespace WCCFNew
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void EMailBTN_Click(object sender, RoutedEventArgs e)
         {
-            QuickPost qp = new QuickPost();
-            this.NavigationService.Navigate(qp);
+            GMailPG gm = new GMailPG();
+            this.NavigationService.Navigate(gm);
+        }
+
+        private void FBBTN_Click(object sender, RoutedEventArgs e)
+        {
+            FacebookPG fb = new FacebookPG();
+            this.NavigationService.Navigate(fb);
+        }
+
+        private void QuickPostBTN_Click(object sender, RoutedEventArgs e)
+        {
+            QuickPost myqp = new QuickPost();
+            this.NavigationService.Navigate(myqp);
+        }
+
+        private void TwitterBTN_Click(object sender, RoutedEventArgs e)
+        {
+            TwitterPG tp = new TwitterPG();
+            this.NavigationService.Navigate(tp);
         }
     }
 }
