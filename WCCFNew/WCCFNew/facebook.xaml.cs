@@ -34,6 +34,14 @@ namespace WCCFNew
             InitializeComponent();
         }
 
+        public string accessTokenProp
+        {
+            set
+            {
+                _accessToken = value;
+            }
+        }
+
         private void btnClearFB_Click(object sender, RoutedEventArgs e)
         {
             txtMessageFB.Clear();
@@ -117,15 +125,21 @@ namespace WCCFNew
             catch (FacebookOAuthException)
             {
                 MessageBox.Show("An error occured, Please log back in");
-                var fbLoginDialog = new FacebookLoginDialog(AppId, ExtendedPermissions); // Creates the Facebook login dialog
-                fbLoginDialog.ShowDialog(); // Shows the login form
-
-                DisplayAppropriateMessage(fbLoginDialog.facebookOAuthResult);
+                Login();
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                MessageBox.Show(e.Message);
                 postSuccess = false;
             }
+        }
+
+        public void Login()
+        {
+            var fbLoginDialog = new FacebookLoginDialog(AppId, ExtendedPermissions); // Creates the Facebook login dialog
+            fbLoginDialog.ShowDialog(); // Shows the login form
+
+            DisplayAppropriateMessage(fbLoginDialog.facebookOAuthResult); // DisplaysAppropriateMessage for the OAuth Result
         }
 
         // Submits the status post
