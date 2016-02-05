@@ -26,9 +26,9 @@ namespace WCCFNew
         {
             InitializeComponent();
             fbAccessToken = File.ReadAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt");
-            if (fbAccessToken.Count() <= 0)
+            if (fbAccessToken.Count() == 0)
             {
-                MessageBox.Show("Invalid Token");
+                fbClass.Login();
             }
         }
 
