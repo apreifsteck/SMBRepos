@@ -22,7 +22,7 @@ namespace WCCFNew
     public partial class facebook : Window
     {
         private const string AppId = "1714601905437313"; // FB given app id - Found on Dev Site.
-        private const string ExtendedPermissions = "publish_actions, offline_access"; // Permissions granted to the user
+        private const string ExtendedPermissions = "publish_actions"; // Permissions granted to the user
         private string _accessToken; // needed to carry out any tasks
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
