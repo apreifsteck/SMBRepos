@@ -68,8 +68,8 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="GMail.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="login.xaml">
       <SubType>Designer</SubType>
