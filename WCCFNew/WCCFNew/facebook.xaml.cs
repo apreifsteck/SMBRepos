@@ -27,7 +27,7 @@ namespace WCCFNew
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
-        //AccessTokenCheck atCheck;
+        AccessTokenCheck atCheck;
         login loginScreen;
 
         public facebook()
@@ -78,7 +78,7 @@ namespace WCCFNew
                     btnLogoutFB.Content = "Logout of Facebook";
                     atCheck = new AccessTokenCheck(_accessToken);
                     _accessToken = atCheck.getExtendedToken;
-                    File.WriteAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
+                    File.WriteAllText(@"AccessTokenStorage\accessToken.txt", _accessToken);
                 }
                 else
                 {
