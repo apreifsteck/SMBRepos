@@ -11,15 +11,16 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Navigation;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for GMail.xaml
+    /// Interaction logic for NavWin.xaml
     /// </summary>
-    public partial class GMail : Window
+    public partial class NavWin : NavigationWindow
     {
-        public GMail()
+        public NavWin()
         {
             InitializeComponent();
         }

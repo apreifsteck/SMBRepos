@@ -10,23 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for facebook.xaml
+    /// Interaction logic for TwitterPG.xaml
     /// </summary>
-    public partial class facebook : Window
+    public partial class TwitterPG : Page
     {
-        public facebook()
+        public TwitterPG()
         {
             InitializeComponent();
-        }
-
-        private void btnClearFB_Click(object sender, RoutedEventArgs e)
-        {
-            txtMessageFB.Clear();
         }
     }
 }

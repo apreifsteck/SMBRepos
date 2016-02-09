@@ -1,0 +1,71 @@
+﻿<Page x:Class="WCCFNew.MainMenuPG"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WCCFNew"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="MainMenuPG">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Style="{StaticResource headerBoarderStyle}"/>
+        <Border Grid.Row="3" Style="{StaticResource footerBoarderStyle}"/>
+
+        <Label Grid.Row="0" Content="Main Menu" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="28" FontWeight="Bold" Foreground="#FFC1C1C1"/>
+        <Image Grid.Row="1" Source="Media/logo.png"/>
+        
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="6*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="EMailBTN" Grid.ColumnSpan="2" Content="E-Mail Page" FontSize="30" FontWeight="Bold" Style="{StaticResource buttonStyle}" Click="EMailBTN_Click"/>
+                <Image Grid.Column="1" Source="Media/emailLogo.png"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="6*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="FBBTN" Grid.ColumnSpan="2" Content="Facebook Page" FontSize="30" FontWeight="Bold" Style="{StaticResource buttonStyle}" Click="FBBTN_Click"/>
+                <Image Grid.Column="1" Source="Media/facebookLogo.png"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="6*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="QuickPostBTN" Grid.ColumnSpan="2" Content="Quick Post Page" FontSize="30" FontWeight="Bold" Style="{StaticResource buttonStyle}" Click="QuickPostBTN_Click"/>
+                <Image Grid.Column="1"/>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="6*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="TwitterBTN" Grid.ColumnSpan="2" Content="Twitter Page" FontSize="30" FontWeight="Bold" Style="{StaticResource buttonStyle}" Click="TwitterBTN_Click"/>
+                <Image Grid.Column="1" Source="Media/twitterLogo.png"/>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Page>

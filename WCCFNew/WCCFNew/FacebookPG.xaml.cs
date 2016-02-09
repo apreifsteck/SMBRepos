@@ -10,24 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for login.xaml
+    /// Interaction logic for FacebookPG.xaml
     /// </summary>
-    public partial class login : Window
+    public partial class FacebookPG : Page
     {
-        public login()
+        public FacebookPG()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            mainMenu mm = new mainMenu();
-            mm.Show();
         }
     }
 }
