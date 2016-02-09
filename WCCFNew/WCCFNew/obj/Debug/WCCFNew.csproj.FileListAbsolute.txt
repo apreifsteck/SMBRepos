@@ -72,3 +72,6 @@ C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
 C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
 C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
 M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
+C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
