@@ -1,1 +1,70 @@
-C:\Users\Hope\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+Q:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
+Q:\WCCFNew\WCCFNew\obj\Debug\App.g.cs
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
+Q:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
+Q:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
+Q:\WCCFNew\WCCFNew\obj\Debug\App.baml
+F:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
+F:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
+F:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
+F:\WCCFNew\WCCFNew\obj\Debug\MainWindow.g.cs
+F:\WCCFNew\WCCFNew\obj\Debug\App.g.cs
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
+F:\WCCFNew\WCCFNew\obj\Debug\App.baml
+F:\WCCFNew\WCCFNew\obj\Debug\MainWindow.baml
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
+F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
+F:\WCCFNew\WCCFNew\obj\Debug\facebook.g.cs
+F:\WCCFNew\WCCFNew\obj\Debug\facebook.baml
+Q:\WCCFNew\WCCFNew\obj\Debug\login.baml
+Q:\WCCFNew\WCCFNew\obj\Debug\facebook.g.cs
+Q:\WCCFNew\WCCFNew\obj\Debug\GMail.g.cs
+Q:\WCCFNew\WCCFNew\obj\Debug\login.g.cs
+Q:\WCCFNew\WCCFNew\obj\Debug\facebook.baml
+Q:\WCCFNew\WCCFNew\obj\Debug\GMail.baml
+Q:\WCCFNew\WCCFNew\obj\Debug\mainMenu.g.cs
+Q:\WCCFNew\WCCFNew\obj\Debug\quickPost.g.cs
+Q:\WCCFNew\WCCFNew\obj\Debug\mainMenu.baml
+Q:\WCCFNew\WCCFNew\obj\Debug\quickPost.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\LoginPG.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\NavWin.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\App.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\App.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\LoginPG.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\NavWin.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\MainMenuPG.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\MainMenuPG.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\FacebookPG.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\FacebookPG.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\QuickPost.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\QuickPost.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\GMailPG.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\GMailPG.baml
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\TwitterPG.g.cs
+C:\Users\Jarrid Fisher\Desktop\GitHub\WCCFNew\WCCFNew\obj\Debug\TwitterPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb

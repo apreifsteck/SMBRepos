@@ -16,28 +16,17 @@ using System.Windows.Shapes;
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for QuickPost.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class QuickPost : Page
     {
         private const int MAX_CHARS = 140;
-
-        public MainWindow()
+        public QuickPost()
         {
             InitializeComponent();
-
-            if (twittercheck.IsChecked.Value == true)
-            {
-                RemainingChar.Content = "Characters remaining: " + Convert.ToString(EventText.MaxLength - EventText.Text.Length);
-            }
-            else
-            {
-                RemainingChar.Content = "Characters remaining: Unlimited";
-            }
-
         }
 
-        private void twittercheck_Unchecked(object sender, RoutedEventArgs e)
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
             EventText.MaxLength = 0;
 
@@ -51,9 +40,6 @@ namespace WCCFNew
             }
 
             RemainingChar.Content = "Characters remaining: Unlimited";
-
-
-
         }
 
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
@@ -72,14 +58,10 @@ namespace WCCFNew
             }
 
             RemainingChar.Content = "Characters remaining: " + Convert.ToString(EventText.MaxLength - EventText.Text.Length);
-
-
-
         }
 
         private void EventText_TextChanged(object sender, TextChangedEventArgs e)
         {
-
             if (twittercheck.IsChecked.Value)
             {
                 RemainingChar.Content = "Characters remaining: " + Convert.ToString(EventText.MaxLength - EventText.Text.Length);
@@ -98,30 +80,35 @@ namespace WCCFNew
                 RemainingChar.Foreground = Brushes.LimeGreen;
             }
 
-
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void SendMSGBTN_Click(object sender, RoutedEventArgs e)
         {
             string eventString = EventText.Text;
             EventText.Clear();
         }
 
-        private void FacebookBtn_Click(object sender, RoutedEventArgs e)
-        {
-            facebook fbpage = new facebook();
-            fbpage.Show();
-        }
-
-        private void ClearMSGbtn_Click(object sender, RoutedEventArgs e)
+        private void ClearMSGBTN_Click(object sender, RoutedEventArgs e)
         {
             EventText.Clear();
         }
 
-        private void EmailBtn_Click(object sender, RoutedEventArgs e)
+        private void EmailBTN_Click(object sender, RoutedEventArgs e)
         {
-            GMail gmPage = new GMail();
-            gmPage.Show();
+            GMailPG gm = new GMailPG();
+            this.NavigationService.Navigate(gm);
+        }
+
+        private void FacebookBTN_Click(object sender, RoutedEventArgs e)
+        {
+            FacebookPG facebook = new FacebookPG();
+            this.NavigationService.Navigate(facebook);
+        }
+
+        private void TwitterBTN_Click(object sender, RoutedEventArgs e)
+        {
+            TwitterPG twitter = new TwitterPG();
+            this.NavigationService.Navigate(twitter);
         }
     }
 }
