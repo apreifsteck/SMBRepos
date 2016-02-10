@@ -75,3 +75,6 @@ M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyRefere
 C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
 C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
 C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
+C:\Users\Hope\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+C:\Users\Hope\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
+C:\Users\Hope\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
