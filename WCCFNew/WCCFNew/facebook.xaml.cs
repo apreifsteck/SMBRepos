@@ -78,7 +78,7 @@ namespace WCCFNew
                     btnLogoutFB.Content = "Logout of Facebook";
                     atCheck = new AccessTokenCheck(_accessToken);
                     _accessToken = atCheck.getExtendedToken;
-                    File.WriteAllText(@"C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
+                    File.WriteAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
                 }
                 else
                 {
