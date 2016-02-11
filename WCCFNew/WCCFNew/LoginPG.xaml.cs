@@ -43,8 +43,10 @@ namespace WCCFNew
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainMenuPG mainMenu = new MainMenuPG();
-            this.NavigationService.Navigate(mainMenu);
+            //MainMenuPG mainMenu = new MainMenuPG();
+            //this.NavigationService.Navigate(mainMenu);
+            QuickPost qp = new QuickPost();
+            this.NavigationService.Navigate(qp);
         }
     }
 }

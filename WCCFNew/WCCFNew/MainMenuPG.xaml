@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WCCFNew"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="MainMenuPG">
+      Title="Main Menu">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
