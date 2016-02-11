@@ -67,16 +67,12 @@ namespace WCCFNew
 
                     // Welcomes the user after a successful login
                     MessageBox.Show("Success. Hello " + name);
-                    btnLogoutFB.IsEnabled = true;
-                    btnLoginFB.IsEnabled = false;
                     txtMessageFB.IsEnabled = true;
                     btnClearFB.IsEnabled = true;
                     btnSubmitFB.IsEnabled = true;
                     cbGroup.IsEnabled = true;
                     cbWall.IsEnabled = true;
                     cbPage.IsEnabled = true;
-                    btnLoginFB.Content = "Logged In";
-                    btnLogoutFB.Content = "Logout of Facebook";
                     atCheck = new AccessTokenCheck(_accessToken);
                     _accessToken = atCheck.getExtendedToken;
                     File.WriteAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
@@ -186,17 +182,12 @@ namespace WCCFNew
             {
                 MessageBox.Show("Error! Could not log you out at this time. Please try again", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
-            btnLogoutFB.IsEnabled = false;
-            btnLoginFB.IsEnabled = true;
             txtMessageFB.IsEnabled = false;
             btnClearFB.IsEnabled = false;
             btnSubmitFB.IsEnabled = false;
             cbGroup.IsEnabled = false;
             cbWall.IsEnabled = false;
             cbPage.IsEnabled = false;
-            btnLogoutFB.Content = "Logged Out";
-            btnLoginFB.Content = "Login to Facebook";
         }
     }
 }
