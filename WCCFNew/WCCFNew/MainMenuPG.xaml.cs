@@ -10,24 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for mainMenu.xaml
+    /// Interaction logic for MainMenuPG.xaml
     /// </summary>
-    public partial class mainMenu : Window
+    public partial class MainMenuPG : Page
     {
-        public mainMenu()
+        public MainMenuPG()
         {
             InitializeComponent();
         }
 
-        private void btnFacebook_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            facebook fb = new facebook();
-            fb.Show();
+            QuickPost qp = new QuickPost();
+            this.NavigationService.Navigate(qp);
         }
     }
 }

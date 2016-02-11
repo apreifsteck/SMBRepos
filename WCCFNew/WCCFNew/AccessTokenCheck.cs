@@ -11,6 +11,7 @@ namespace WCCFNew
 {
     class AccessTokenCheck
     {
+        // This is the fixed version of the program
         private string accessToken;
         private string extendedAccessToken;
 

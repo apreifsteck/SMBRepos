@@ -10,19 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for login.xaml
+    /// Interaction logic for LoginPG.xaml
     /// </summary>
-    public partial class login : Window
+    public partial class LoginPG : Page
     {
         private string fbAccessToken;
-        facebook fbClass = new facebook();
-        public login()
+        FacebookPG fbClass = new FacebookPG();
+        public LoginPG()
         {
             InitializeComponent();
             fbAccessToken = File.ReadAllText(@"AccessTokenStorage\accessToken.txt");
@@ -42,8 +43,10 @@ namespace WCCFNew
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            mainMenu mm = new mainMenu();
-            mm.Show();
+            //MainMenuPG mainMenu = new MainMenuPG();
+            //this.NavigationService.Navigate(mainMenu);
+            QuickPost qp = new QuickPost();
+            this.NavigationService.Navigate(qp);
         }
     }
 }

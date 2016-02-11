@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 using Facebook;
@@ -17,9 +18,9 @@ using Facebook;
 namespace WCCFNew
 {
     /// <summary>
-    /// Interaction logic for facebook.xaml
+    /// Interaction logic for FacebookPG.xaml
     /// </summary>
-    public partial class facebook : Window
+    public partial class FacebookPG : Page
     {
         private const string AppId = "1714601905437313"; // FB given app id - Found on Dev Site.
         private const string ExtendedPermissions = "publish_actions"; // Permissions granted to the user
@@ -28,9 +29,9 @@ namespace WCCFNew
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
         AccessTokenCheck atCheck;
-        login loginScreen;
+        LoginPG loginScreen;
 
-        public facebook()
+        public FacebookPG()
         {
             InitializeComponent();
         }
@@ -66,19 +67,15 @@ namespace WCCFNew
 
                     // Welcomes the user after a successful login
                     MessageBox.Show("Success. Hello " + name);
-                    btnLogoutFB.IsEnabled = true;
-                    btnLoginFB.IsEnabled = false;
                     txtMessageFB.IsEnabled = true;
                     btnClearFB.IsEnabled = true;
                     btnSubmitFB.IsEnabled = true;
                     cbGroup.IsEnabled = true;
                     cbWall.IsEnabled = true;
                     cbPage.IsEnabled = true;
-                    btnLoginFB.Content = "Logged In";
-                    btnLogoutFB.Content = "Logout of Facebook";
                     atCheck = new AccessTokenCheck(_accessToken);
                     _accessToken = atCheck.getExtendedToken;
-                    File.WriteAllText(@"AccessTokenStorage\accessToken.txt", _accessToken);
+                    File.WriteAllText(@"C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\AccessTokenStorage\accessToken.txt", _accessToken);
                 }
                 else
                 {
@@ -146,7 +143,7 @@ namespace WCCFNew
         // Submits the status post
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            loginScreen = new login();
+            loginScreen = new LoginPG();
             _accessToken = loginScreen.getStoredToken;
             StatusPost();
             if (postSuccess == true)
@@ -155,7 +152,7 @@ namespace WCCFNew
             }
             else if (postSuccess == false)
             {
-                MessageBox.Show("Error, Please make sure at least one option is checked.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Error posting Status, Please try again later.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
             postDirectionList.Clear();
@@ -185,17 +182,12 @@ namespace WCCFNew
             {
                 MessageBox.Show("Error! Could not log you out at this time. Please try again", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
-            btnLogoutFB.IsEnabled = false;
-            btnLoginFB.IsEnabled = true;
             txtMessageFB.IsEnabled = false;
             btnClearFB.IsEnabled = false;
             btnSubmitFB.IsEnabled = false;
             cbGroup.IsEnabled = false;
             cbWall.IsEnabled = false;
             cbPage.IsEnabled = false;
-            btnLogoutFB.Content = "Logged Out";
-            btnLoginFB.Content = "Login to Facebook";
         }
     }
 }

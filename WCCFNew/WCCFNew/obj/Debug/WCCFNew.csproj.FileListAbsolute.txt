@@ -1,77 +1,31 @@
-Q:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
-Q:\WCCFNew\WCCFNew\obj\Debug\App.g.cs
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
-Q:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
-Q:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
-Q:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
-Q:\WCCFNew\WCCFNew\obj\Debug\App.baml
-F:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
-F:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
-F:\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
-F:\WCCFNew\WCCFNew\obj\Debug\MainWindow.g.cs
-F:\WCCFNew\WCCFNew\obj\Debug\App.g.cs
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
-F:\WCCFNew\WCCFNew\obj\Debug\App.baml
-F:\WCCFNew\WCCFNew\obj\Debug\MainWindow.baml
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
-F:\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
-F:\WCCFNew\WCCFNew\obj\Debug\facebook.g.cs
-F:\WCCFNew\WCCFNew\obj\Debug\facebook.baml
-Q:\WCCFNew\WCCFNew\obj\Debug\login.baml
-Q:\WCCFNew\WCCFNew\obj\Debug\facebook.g.cs
-Q:\WCCFNew\WCCFNew\obj\Debug\GMail.g.cs
-Q:\WCCFNew\WCCFNew\obj\Debug\login.g.cs
-Q:\WCCFNew\WCCFNew\obj\Debug\facebook.baml
-Q:\WCCFNew\WCCFNew\obj\Debug\GMail.baml
-Q:\WCCFNew\WCCFNew\obj\Debug\mainMenu.g.cs
-Q:\WCCFNew\WCCFNew\obj\Debug\quickPost.g.cs
-Q:\WCCFNew\WCCFNew\obj\Debug\mainMenu.baml
-Q:\WCCFNew\WCCFNew\obj\Debug\quickPost.baml
 M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\Facebook.dll
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\bin\Debug\Facebook.xml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\FacebookLoginDialog.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\FacebookPG.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\GMailPG.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\LoginPG.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\MainMenuPG.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\NavWin.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\QuickPost.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\TwitterPG.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\App.g.cs
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\App.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\FacebookLoginDialog.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\FacebookPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\GMailPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\LoginPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\MainMenuPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\NavWin.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\QuickPost.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\TwitterPG.baml
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
+M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
 M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
 M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\WCCFNew.pdb
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\Facebook.dll
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\bin\Debug\Facebook.xml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\login.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\facebook.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\FacebookLoginDialog.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\GMail.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\login.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\mainMenu.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\quickPost.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\App.g.cs
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.cache
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew_MarkupCompile.lref
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\App.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\facebook.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\FacebookLoginDialog.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\GMail.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\mainMenu.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\quickPost.baml
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
-C:\Users\hgull\Documents\Visual Studio 2015\Projects\GitHub\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
-C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
-C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
-C:\Users\hgull\Documents\gh1\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
-M:\GitHub\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csprojResolveAssemblyReference.cache
-C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\bin\Debug\WCCFNew.exe.config
-C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.exe
-C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.pdb
