@@ -152,7 +152,7 @@ namespace WCCFNew
             }
             else if (postSuccess == false)
             {
-                MessageBox.Show("Error, Please make sure at least one option is checked.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Error posting Status, Please try again later.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
             postDirectionList.Clear();
