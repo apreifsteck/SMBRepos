@@ -26,6 +26,7 @@ namespace WCCFNew
         private const string ExtendedPermissions = "publish_actions"; // Permissions granted to the user
         private string _accessToken; // needed to carry out any tasks
         private string groupID; // Group post ID
+        private string pageID; // Page post ID
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
@@ -106,7 +107,8 @@ namespace WCCFNew
                 }
                 if (cbPage.IsChecked == true)
                 {
-                    postDirectionList.Add("1104900869531916/feed");
+                    pageID = File.ReadAllText(@"FacebookID's\pageID.txt") + "/feed";
+                    postDirectionList.Add(pageID);
                 }
                 if (cbGroup.IsChecked == false && cbPage.IsChecked == false && cbWall.IsChecked == false)
                 {

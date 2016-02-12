@@ -22,9 +22,10 @@ namespace WCCFNew
     /// </summary>
     public partial class SettingsPG : Page
     {
-        Uri myUri;
-        string temp, finalID;
+        Uri myGroupUri, myPageUri;
+        string tempGroup, finalGroupID, tempPage, finalPageID;
         string[] groupID;
+        string[] pageID;
 
         public SettingsPG()
         {
@@ -36,12 +37,12 @@ namespace WCCFNew
         {
             try
             {
-                myUri = new Uri(txtFBGroupUrl.Text);
-                temp = myUri.ToString();
-                temp = temp.Substring(32);
-                groupID = temp.Split('/');
-                finalID = groupID[0];
-                File.WriteAllText(@"FacebookID's\groupID.txt", finalID);
+                myGroupUri = new Uri(txtFBGroupUrl.Text);
+                tempGroup = myGroupUri.ToString();
+                tempGroup = tempGroup.Substring(32);
+                groupID = tempGroup.Split('/');
+                finalGroupID = groupID[0];
+                File.WriteAllText(@"FacebookID's\groupID.txt", finalGroupID);
                 MessageBox.Show("Facebook Group Set! Settings Applied", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 groupID = null;
             }
@@ -53,6 +54,36 @@ namespace WCCFNew
             {
                 MessageBox.Show("An unexpected error has occured", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        // Sets the post page with the given url (Through Page ID)
+        private void btnPageApply_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                myPageUri = new Uri(txtFBPageUrl.Text);
+                tempPage = myPageUri.ToString();
+                tempPage = tempPage.Substring(30);
+                pageID = tempPage.Split('/');
+                finalPageID = pageID[0];
+                File.WriteAllText(@"FacebookID's\pageID.txt", finalPageID);
+                MessageBox.Show("Facebook Page Set! Settings Applied", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                pageID = null;
+            }
+            catch (UriFormatException)
+            {
+                MessageBox.Show("Error, please make sure to enter a valid URL", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("An unexpected error has occured", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        // Clears Page Url Text
+        private void btnPageClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtFBPageUrl.Clear();
         }
 
         // Clears the group url link box
