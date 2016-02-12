@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/emaillogo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("createtables.sql")]
 
 
