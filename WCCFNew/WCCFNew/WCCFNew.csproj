@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -68,6 +69,9 @@
     </Compile>
     <Compile Include="QuickPost.xaml.cs">
       <DependentUpon>QuickPost.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsPG.xaml.cs">
+      <DependentUpon>SettingsPG.xaml</DependentUpon>
     </Compile>
     <Compile Include="TwitterPG.xaml.cs">
       <DependentUpon>TwitterPG.xaml</DependentUpon>
@@ -113,6 +117,10 @@
       <DependentUpon>NavWin.xaml</DependentUpon>
     </Compile>
     <Page Include="QuickPost.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsPG.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

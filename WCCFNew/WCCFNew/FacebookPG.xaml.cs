@@ -25,6 +25,7 @@ namespace WCCFNew
         private const string AppId = "1714601905437313"; // FB given app id - Found on Dev Site.
         private const string ExtendedPermissions = "publish_actions"; // Permissions granted to the user
         private string _accessToken; // needed to carry out any tasks
+        private string groupID; // Group post ID
         private bool postSuccess; // True / False for successful post
         //private string postDirection; // Decides where to post the status to
         List<string> postDirectionList = new List<string>(); // List of post directions
@@ -34,6 +35,7 @@ namespace WCCFNew
         public FacebookPG()
         {
             InitializeComponent();
+            //groupID = File.ReadAllText(@"FacebookID's\groupID.txt") + "/feed";
         }
 
         public string accessTokenProp
@@ -95,7 +97,8 @@ namespace WCCFNew
 
                 if (cbGroup.IsChecked == true)
                 {
-                    postDirectionList.Add("1142153865797871/feed");
+                    groupID = File.ReadAllText(@"FacebookID's\groupID.txt") + "/feed";
+                    postDirectionList.Add(groupID);
                 }
                 if (cbWall.IsChecked == true)
                 {
@@ -188,6 +191,12 @@ namespace WCCFNew
             cbGroup.IsEnabled = false;
             cbWall.IsEnabled = false;
             cbPage.IsEnabled = false;
+        }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            SettingsPG settingsPage = new SettingsPG();
+            this.NavigationService.Navigate(settingsPage);
         }
     }
 }

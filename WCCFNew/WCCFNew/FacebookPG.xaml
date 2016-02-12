@@ -71,5 +71,6 @@
 
 
         </Grid>
+        <Button x:Name="btnSettings" Content="Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource buttonStyle}" Width="113" Grid.Row="3" Height="50" Click="btnSettings_Click"/>
     </Grid>
 </Page>

@@ -60,3 +60,5 @@ C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\TwitterPG.baml
 C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.g.resources
 C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.Properties.Resources.resources
 C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\WCCFNew.csproj.GenerateResource.Cache
+C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\SettingsPG.g.cs
+C:\Users\hgull\Source\Repos\SMBRepos\WCCFNew\WCCFNew\obj\Debug\SettingsPG.baml
